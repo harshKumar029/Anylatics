@@ -19,7 +19,7 @@ function Home() {
   });
 
   const loadData = async () => {
-    let response = await fetch("http://localhost:5000/api/statistics", {
+    let response = await fetch("https://anylaticsserver-harsh-kumars-projects-93aba863.vercel.app/api/statistics", {
       method: "post",
       header: {
         'content-Type': 'application/json'
